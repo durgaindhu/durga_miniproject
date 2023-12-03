@@ -1,0 +1,17 @@
+body{
+    background-image: url(../images/homepage.jpg);
+    width:300px;
+    height:200vh;
+    background-size:contain;
+    background-repeat: no repeat;
+}
+h1{
+    color:blue;
+    background-color:beige;
+}
+div {
+    font-size: xx-large;
+    color:black;
+    background-color:skyblue;
+
+}

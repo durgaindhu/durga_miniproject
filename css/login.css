@@ -1,0 +1,34 @@
+
+
+
+inputt[type=text],input[type=password]{
+    
+    padding:12px 20px;
+    margin:8px 0;
+    
+    border:1px solid #ccc;
+    box-sizing:10px;;
+    
+
+}
+button{
+    background-color:#04AA6D;
+    color:pink;
+
+    margin:8px 0;
+    cursor:pointer;
+    widtth:10px;
+    }
+    body{
+        background-image: url(../images/loginbg.webp);
+        background-color:skyblue;
+        width:400px;
+        height:200vh;
+        background-size:contain;
+        background-repeat: no repeat;
+    }
+    .container{
+        text-align:center
+        font-size:larger;
+        
+    }

@@ -1,0 +1,42 @@
+body{
+    background-color: skyblue;
+    color:black;
+    padding: 10px;
+    
+    border-width: 10px;
+    border-radius: 50;
+    
+    vertical-align:center;
+    margin-left:500px;
+    margin-top:10px;
+    margin-bottom:300px;
+    margin-right: 500px;
+    border-top-right-radius: 0dvh;
+    background-image: url(./images/menubg.jpeg);
+    width:400px;
+    height:200vh;
+    background-size:contain;
+    background-repeat: no repeat;
+
+    
+    
+
+}
+table{
+    
+    background-color:white;
+    table-align:top;
+}
+th{
+    font-size: larger;
+}
+
+
+h1{
+    color:orange;
+    text-align:justify;
+}
+th{
+    color:red;
+    text-decoration: aqua;
+}

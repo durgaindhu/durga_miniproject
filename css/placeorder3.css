@@ -1,0 +1,46 @@
+.items{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    padding:30px 20px;
+    grid-column-gap:20px;
+    grid-row-gap:30px;
+}
+h1{
+    text-align:center;
+    background-color:pink;
+}
+.item img{
+     width:300px;
+     height:200px;
+     object-fit:cover;
+     cursor:pointer;
+     transition:0.2  0050;
+
+}
+.item img:hover{
+    transform:scale(1.04);
+
+}
+.item h4{
+    paddig:5px;
+    text-align:justify;
+    }
+    .item button{
+        padding:5px 30px;
+        border:none;
+        outline:none;
+        background-color:rgb(233, 175, 175);
+        color:white;
+        cursor:pointer;
+        border-radius:4px;
+        font-sixe:20px;
+        display:block;
+        margin:auto;
+
+    }
+    .item button.hover{
+        transform:scale(1.04);
+    }
+    .container{
+        text-align:center;
+    }

@@ -1,0 +1,29 @@
+.container{
+    padding:16px;
+
+}
+hr{
+    border:1px solid white;
+    margin-bottom: 25px;;
+}
+.registerbutton{
+    background-color: aqua;
+    color:blue;
+    padding:16px;
+    margin:8px 0;
+}
+h1{
+    color:blue;
+
+}
+p{
+    font-size:larger;
+}
+body{
+    background-image: url(../images/registerbg.jpg);
+    width:400px;
+    height:200vh;
+    background-size:contain;
+    background-repeat: no repeat;
+    color:blue;
+}
