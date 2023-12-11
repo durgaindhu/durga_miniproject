@@ -12,7 +12,7 @@ body{
     margin-bottom:300px;
     margin-right: 500px;
     border-top-right-radius: 0dvh;
-    background-image: url(./images/menubg.jpeg);
+    background-image: url(../images/menubg.jpg);
     width:400px;
     height:200vh;
     background-size:contain;
@@ -24,8 +24,9 @@ body{
 }
 table{
     
-    background-color:white;
-    table-align:top;
+text-align:center;
+border-style: double;
+border-color: black;
 }
 th{
     font-size: larger;
@@ -33,7 +34,7 @@ th{
 
 
 h1{
-    color:orange;
+    color:red;
     text-align:justify;
 }
 th{

@@ -7,23 +7,51 @@ hr{
     margin-bottom: 25px;;
 }
 .registerbutton{
-    background-color: aqua;
+    
     color:blue;
     padding:16px;
     margin:8px 0;
 }
 h1{
-    color:blue;
+    color: black;
 
 }
-p{
-    font-size:larger;
-}
+
 body{
-    background-image: url(../images/registerbg.jpg);
+    
     width:400px;
     height:200vh;
     background-size:contain;
     background-repeat: no repeat;
-    color:blue;
+    color:brown;
+ font-size:x-large;
+   
 }
+.image{
+    float:right;
+        position: absolute;
+  left: calc(50% + 80px);
+  right: 0;
+  background-repeat: no-repeat;
+  height: 100%;
+  width:100%;
+  background-size: cover;
+  background-position: 100%;
+  top: 0;
+  background-color: hsla(26,5%,70%,.2);
+  border-image-width: 50px;
+  display:flex;
+    
+
+}
+.myinput{
+    width:300px;
+    height:50px;
+    border:3px solid black;
+ }
+ ::placeholder{
+    font-size: xx-large;
+    color:blue;
+
+ }
+ 

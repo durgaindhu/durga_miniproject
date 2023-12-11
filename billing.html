@@ -8,10 +8,11 @@
 </head>
 <body>
     <h1>ORDER YOUR FAVORITE FOOD</h1>
+    <div class="container">
     <form action=""method="get">
          <div class="container">
              <label><b>FOOD NAME</b</label>
-            <select name="yourfoodname" id="yourfoodname">
+            <select name="yourfoodname" id="yourfoodname" class="input">
                 <option value="select">CHOOSE YOUR FOOD</option>
                 <option value="1">MUTTON BRIYANI</option>
                 <option value="2">CHICKEN BRIYANI</option>
@@ -38,8 +39,8 @@
                 <option value="11">PRAWN</option>
                 <option value="12">CHILLY MANCHURIAN CHICKEN</option>
             </select><br><br><br>
-        <label><b>QUANTITY</b></label>
-         <select name="quantity" id="quantity">
+        <label><b>QUANTITY</b> </label>
+         <select name="quantity" id="quantity" class="input">
                 <option value="select">1</option>
                 <option value="1">2</option>
                 <option value="2">3</option>
@@ -54,8 +55,8 @@
               
       
         
-            <label><b>AMOUNT</b></label>
-              <select name="quantity" id="quantity">
+            <label><b>AMOUNT</b> </label>
+              <select name="quantity" id="quantity"class="input">
                 <option value="select">RS:238</option>
                 <option value="1">RS:166</option>
                 <option value="2">RS:133</option>
@@ -80,18 +81,21 @@
                 <option value="6">RS:150</option>
 
              </select><br><br><br>
+            
             <label for="address"><b>ADDRESS</b></label>
-            <input type="text"placeholder="enter address"name="address"><br><br>
+            <input type="text" class="input"placeholder="enter address"name="address"><br><br>
             
                 <label for="contact"><b>CONTACT</b></label>
-                <input type="number"placeholder="enter contact"name="contact"><br><br>
+                <input type="password" class="input"placeholder="enter contact"name="contact"><br><br>
                 <label for="upi"><b>UPU</b></label>
-                    <input type="tect"placeholder="enter upi"name="upi"><br><br>
+                    <input type="tect" class="input"placeholder="enter upi"name="upi"><br><br>
                     </div>
                 <div class="btn">
                     <button><a href="./orderedsuccessfully.html">ORDER</a></button>
 
                 </div>
+            
     </form>
+</div>
 </body>
 </html>
